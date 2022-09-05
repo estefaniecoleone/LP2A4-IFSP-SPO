@@ -1,0 +1,20 @@
+package br.edu.ifsp.lp2a4;
+
+public class Teste {
+	
+	public static void main(String[] args) {
+	
+	ThreadRunnable thread1 = new ThreadRunnable("1 ", 500);
+	Thread t1 = new Thread(thread1);
+	t1.start();
+	
+	ThreadRunnable thread2 = new ThreadRunnable("2 ", 1000);
+	Thread t2 = new Thread(thread1);
+	t2.start();
+	
+	ThreadRunnable thread3 = new ThreadRunnable("3 ", 1500);
+	Thread t3 = new Thread(thread1);
+	t3.start();
+
+	}
+}

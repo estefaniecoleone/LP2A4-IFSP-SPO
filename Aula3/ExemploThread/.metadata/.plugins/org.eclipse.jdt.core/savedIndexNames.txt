@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\012448631\Desktop\IFSP\SEMESTRE 4\LP2A4\Aula3\ExemploThread\.metadata\.plugins\org.eclipse.jdt.core
+244697416.index
+3321388486.index

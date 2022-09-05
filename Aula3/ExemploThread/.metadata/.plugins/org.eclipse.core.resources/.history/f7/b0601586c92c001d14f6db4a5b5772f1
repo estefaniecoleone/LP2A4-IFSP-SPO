@@ -1,0 +1,26 @@
+package br.edu.ifsp.lp2a4;
+
+public class ThreadRunnable implements Runnable{
+	
+	private String nomeThread;
+	private int tempo;
+
+	public ThreadRunnable(String nomeThread, int tempo) {
+		super();
+		this.nomeThread = nomeThread;
+		this.tempo = tempo;
+	}
+
+	@Override
+	public void run() {
+
+		try {
+			for (int i=0; i<6; i++) {
+				System.out.println(nomeThread +  );
+			}
+			
+		}catch()
+		
+	}
+
+}

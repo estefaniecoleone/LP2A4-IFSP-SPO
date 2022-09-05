@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;ExemploClienteServidorTCP&apos; to &apos;exemploClienteServidorTCP&apos;&#x0D;&#x0A;- Original element: &apos;ExemploClienteServidorTCP&apos;&#x0D;&#x0A;- Renamed element: &apos;ExemploClienteServidorTCP&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;ExemploClienteServidorTCP&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=ExemploClienteServidorTCP" name="exemploClienteServidorTCP" references="true" stamp="1662349903379" version="1.0"/>
+</session>

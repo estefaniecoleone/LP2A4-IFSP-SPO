@@ -1,0 +1,9 @@
+package br.edu.ifsp.lp2a4;
+
+public class Teste {
+	
+	ThreadRunnable thread1 = new ThreadRunnable("1 ", 500);
+	Thread t1 = new Thread(thread1);
+	t1.start();
+
+}
