@@ -14,8 +14,8 @@ public class ServidorTCP {
 	public static void main(String[] args) throws IOException {
 		
 		try ( ServerSocket servidor = new ServerSocket( PORTA_PADRAO ) ) {
-			while ( true ) {
-				Socket cliente = servidor.accept();
+			while ( true ) { 
+				Socket cliente = servidor.accept(); 
 				System.out.println("Cliente conectado: " + cliente.getInetAddress().getHostAddress());
 				
 				try ( final OutputStream saida = cliente.getOutputStream() ) {

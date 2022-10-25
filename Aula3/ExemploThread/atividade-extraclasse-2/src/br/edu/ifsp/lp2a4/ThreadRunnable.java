@@ -7,8 +7,8 @@ public class ThreadRunnable implements Runnable {
 
 	public ThreadRunnable(String nomeThread, int tempo) {
 		super();
-		this.nomeThread = nomeThread;
-		this.tempo = tempo;
+		this.nomeThread = nomeThread; 
+		this.tempo = tempo; 
 	}
 
 	@Override // ao implementar a classe Runnable deve ser sobre escrito o metodo run
